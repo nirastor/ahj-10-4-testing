@@ -1,0 +1,95 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.app {
+  min-height: 100vh;
+  background-color: #457B9D;
+  font-size: 18px;
+  font-family: 'Roboto', 'Segoe UI', 'Verdana', sans-serif;
+}
+
+.column {
+  width: 80%;
+  max-width: 640px;
+  margin: 0 auto;
+  background-color: #fff;
+  min-height: 100vh;
+  box-shadow: 0 0 15px 2px #1D3557;
+  padding: 40px 15px;
+  position: relative;
+}
+
+.validator-form {
+  border: 2px solid #1D3557;
+  border-radius: 10px;
+  padding: 15px;
+}
+
+.validator-title {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.validator-row {
+  display: flex;
+  align-items: center;
+  margin-bottom: 7px
+}
+
+.validator-pic {
+  /* 85,6 x 53,98 mm */
+  width: 57px;
+  height: 36px;
+  background-color: #B6E0E2;
+  flex-shrink: 0;
+  border-radius: 4px;
+  margin-right: 10px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.validator-input {
+  border-radius: 4px;
+  padding: 7px 10px;
+  font-size: 18px;
+  font-family: 'Roboto', 'Segoe UI', 'Verdana', sans-serif;
+  margin-right: 10px;
+  width: 100%;
+}
+
+.validator-input::placeholder {
+  opacity: 1;
+  transition: all .3s ease;
+}
+
+.validator-input:focus::placeholder {
+  opacity: 0;
+}
+
+.validator-button {
+  font-size: 18px;
+  line-height: 40px;
+  border: none;
+  border-radius: 10px;
+  padding: 0 20px;
+  color: white;
+  background-color: #457B9D;
+  flex-shrink: 0;
+  outline: none;
+}
+
+.validator-button:focus {
+  outline: none;
+}
+
+
+.validator-message {
+  color: #E63946;
+  height: 0;
+  overflow: hidden;
+  transition: all .3s ease;
+}
