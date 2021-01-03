@@ -1,7 +1,7 @@
 import getPaySysytem from '../getPaySysyem';
 
 test('should handle spaces (return visa)', () => {
-  expect(getPaySysytem('4929 6667 5750 3923')).toBe('visa');
+  expect(getPaySysytem('4 9 2 9 6667 5750 3923')).toBe('visa');
 });
 
 test.each([
