@@ -9,16 +9,16 @@ class App {
     this.message = document.querySelector('.validator-message');
     this.picture = document.querySelector('.validator-pic');
     this.cardsURL = {
-      mir: './src/img/mir.png',
-      diners: './src/img/diners.png',
-      jcb: './src/img/jcb.png',
-      ae: './src/img/ae.png',
-      visa: './src/img/visa.png',
-      maestro: './src/img/maestro.png',
-      mastercard: './src/img/mastercard.png',
-      discover: './src/img/discover.png',
-      union: './src/img/union.png',
-      uek: './src/img/uek.png',
+      mir: '../src/img/mir.png',
+      diners: '../src/img/diners.png',
+      jcb: '../src/img/jcb.png',
+      ae: '../src/img/ae.png',
+      visa: '../src/img/visa.png',
+      maestro: '../src/img/maestro.png',
+      mastercard: '../src/img/mastercard.png',
+      discover: '../src/img/discover.png',
+      union: '../src/img/union.png',
+      uek: '../src/img/uek.png',
     };
     this.initListeners();
   }
